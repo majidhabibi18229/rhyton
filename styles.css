@@ -1,0 +1,123 @@
+/* استایل‌های کلی افزونه */
+.wrap {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+table.wp-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+table.wp-list-table th,
+table.wp-list-table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table.wp-list-table th {
+    background: #f9f9f9;
+    font-weight: bold;
+}
+
+table.wp-list-table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table.wp-list-table tr:hover {
+    background: #f1f1f1;
+}
+
+button.button-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.button-danger:hover {
+    background-color: #c82333;
+}
+
+button.button-primary {
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button.button-primary:hover {
+    background-color: #005177;
+}
+
+/* فرم‌ها */
+form {
+    margin-top: 20px;
+}
+
+form table.form-table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+form table.form-table th {
+    width: 150px;
+    text-align: left;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+form table.form-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+/* پیام‌های موفقیت و خطا */
+.notice-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+}
+
+.notice-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px;
+}
